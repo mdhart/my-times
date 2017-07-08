@@ -27,3 +27,32 @@ nav span {
 .link {
   color: black;
 }
+.main-container {
+  display: flex;
+  border: solid;
+  width: 100%;
+}
+.column-large {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  width: 630px;
+}
+.large-column-story {
+  border: solid;
+}
+.main-story-headline p {
+  border: solid;
+}
+.column-medium {
+  display: flex;
+  flex-direction: column;
+  border:solid;
+  width: 300px;
+}
+.column-small {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  width: 240px;
+}
