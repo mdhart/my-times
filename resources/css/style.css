@@ -1,17 +1,28 @@
-.header {
+.logo{
   display: flex;
+  align-items: center;
+  padding-left: 30px;
+  }
+.logo span {
+  color: MediumAquamarine;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  justify-content: space-between;
 }
-.logo{
-  color: MediumAquamarine;
+header nav {
+  padding: 40px;
+  display: block;
 }
-.container {
-  display: flex;
-}
-nav {
-  display: inline-block;
+nav span {
+  color: inline-block;
+  padding: 20px 10px;
 }
 .link {
   color: black;
