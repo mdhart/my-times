@@ -18,6 +18,7 @@ header {
   justify-content: space-between;
   position: fixed;
   z-index: 5;
+
 }
 header nav {
   padding: 40px;
@@ -38,7 +39,6 @@ nav span {
   position: relative;
   top: 100px;
   padding-top: 3px;
-
 }
 .column-large {
   display: flex;
@@ -47,14 +47,45 @@ nav span {
   width: 630px;
 }
 .large-column-story {
+  display: flex;
   border: solid;
+  flex-direction: column;
+}
+.story-background-image {
+  display: flex;
+  border: solid;
+  background-image: url("../../resources/images/main story.png");
+  height: 300px;
+  align-items: center;
 }
 .main-story-headline p {
-  border: solid;
+  display: flex;
+  justify-content: space-around;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
-
+#earth {
+  display: flex;
+  background-image: url("../../resources/images/fall season.png");
+  height: 300px;
+}
+.image-with-headline {
+  display: flex;
+  justify-content: space-around;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 .image-with-headline p {
   border: solid;
+}
+#camera {
+  display: flex;
+  background-image: url("../../resources/images/hipster cameraman.png")
+  /*height: 300px;*/
 }
 .column-medium {
   display: flex;
@@ -65,12 +96,28 @@ nav span {
 .medium-column-story {
   border: solid;
 }
+#cat {
+  display: flex;
+  background-image: url("../../resources/images/cat ceo.png");
+}
 .column-small {
   display: flex;
   flex-direction: column;
   border: solid;
   width: 240px;
 }
+.small-column-story {
+  display: flex;
+  flex-direction: column;
+  border: bold;
+}
+#cookies {
+  display: flex;
+  background-image: url("../../resources/images/cookie.png");
+  height: 250px;
+}
+#bites {
+
+}
 footer {
-  
 }
