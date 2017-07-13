@@ -45,7 +45,7 @@ nav span {
   justify-content: space-around;
   position: relative;
   top: 100px;
-  padding-top: 3px;
+  /*padding-top: 3px;*/
 }
 .column-large {
   display: flex;
@@ -124,6 +124,7 @@ nav span {
   display: flex;
   flex-direction: column;
   width: 300px;
+  justify-content: center;
 }
 .medium-column-story {
   display: block;
@@ -145,5 +146,24 @@ nav span {
   flex-direction: column;
 }
 
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+#bites {
+  text-align: center;
+}
+.bite-list{
+  display: block;
+}
+.bite {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: Dim-Gray;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
 footer {
 }
